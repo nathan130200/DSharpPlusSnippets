@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+      <AlternativeShortcuts>
+        <Shortcut Value="dpp_command">DSharpPlus CNext Command</Shortcut>
+      </AlternativeShortcuts>
+      <Title>DSharpPlus_Command</Title>
+      <Author>FRNathan13</Author>
+      <Description>Create a DSharpPlus Single Command</Description>
+      <HelpUrl>https://dsharpplus.emzi0767.com/articles/commandsnext.html#5-using-arguments</HelpUrl>
+      <Shortcut>dpp_cmd</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>DSharpPlus</Namespace>
+        </Import>
+        <Import>
+          <Namespace>DSharpPlus.Entities</Namespace>
+        </Import>
+        <Import>
+          <Namespace>DSharpPlus.CommandsNext</Namespace>
+        </Import>
+        <Import>
+          <Namespace>DSharpPlus.CommandsNext.Entities</Namespace>
+        </Import>
+        <Import>
+          <Namespace>DSharpPlus.CommandsNext.Attributes</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>name</ID>
+          <ToolTip>Command Name</ToolTip>
+          <Default>mycommand</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>nameMethod</ID>
+          <ToolTip>Command Method Name</ToolTip>
+          <Default>MyCommand</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$" Kind="method decl"><![CDATA[[Command("$name$")]
+public async Task $nameMethod$Async(CommandContext ctx){
+        
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
