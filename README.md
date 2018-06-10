@@ -16,3 +16,7 @@ Simple shortcuts (snippets) to develop a bot using <a href="https://github.com/D
 - dpp_vnext: Include base D#+ Voice Next Namespaces<br>
 - dpp_cmd: Create a single Command Task.<br>
 - dpp_group: Create a group command class.<br>
+
+
+## Example:<br>
+<img src="https://i.imgur.com/IG0X2gt.gif" alt="DSharpPlus Command Snippet Example">
