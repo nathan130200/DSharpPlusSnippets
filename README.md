@@ -1,5 +1,5 @@
 # DSharpPlus Snippets
-Simple shortcuts (snippets) to develop a bot using <a href="https://github.com/DSharpPlus/DSharpPlus">DSharpPlus</a> Framework using Visual Studio.
+Simple shortcuts (snippets) to develop a bot using the <a href="https://github.com/DSharpPlus/DSharpPlus">DSharpPlus</a> Discord API.
 
 **NOTE**: Only support C# snippets yet and this snippets are made using <a href="https://www.myget.org/gallery/dsharpplus-nightly">D#+ 4.0 Beta from MyGet</a> repository.
 
