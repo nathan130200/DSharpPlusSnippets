@@ -11,11 +11,11 @@ Simple shortcuts (snippets) to develop a bot using the <a href="https://github.c
 
 
 ## Snippets Shortcuts:<br>
-- dpp: Include base D#+ Namespaces<br>
-- dpp_cnext: Include base D#+ Commands Next Namespaces<br>
-- dpp_vnext: Include base D#+ Voice Next Namespaces<br>
-- dpp_cmd: Create a single Command Task.<br>
-- dpp_group: Create a group command class.<br>
+- dsp: Include base D#+ Namespaces<br>
+- dsp_cnext: Include base D#+ Commands Next Namespaces<br>
+- dsp_vnext: Include base D#+ Voice Next Namespaces<br>
+- dsp_command: Create a single Command Task.<br>
+- dsp_group: Create a group command class.<br>
 
 
 ## Example:<br>
