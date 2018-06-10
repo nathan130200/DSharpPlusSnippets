@@ -1,1 +1,2 @@
-*.snippet text=xml
+*.snippet   text=auto
+*.xml   text=auto
