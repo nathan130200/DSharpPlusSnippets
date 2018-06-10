@@ -1,5 +1,5 @@
-# DSharpPlusSnippets
-Simple shortcuts (snippets) to develop a bot using DSharpPlus Framework using Visual Studio.
+# <a href="https://github.com/DSharpPlus/DSharpPlus">DSharpPlus</a> Snippets
+Simple shortcuts (snippets) to develop a bot using <a href="https://github.com/DSharpPlus/DSharpPlus">DSharpPlus</a> Framework using Visual Studio.
 
 **NOTE**: Only support C# snippets yet.
 
