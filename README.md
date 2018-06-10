@@ -6,7 +6,7 @@ Simple shortcuts (snippets) to develop a bot using <a href="https://github.com/D
 ## How to install:<br>
 > Windows
 
-1: Goto %USERPROFILE%\Documents\Visual Studio &ltversion&gt\Code Snippets\Visual C#\My Code Snippets<br>
+1: Goto %USERPROFILE%\Documents\Visual Studio <version>\Code Snippets\Visual C#\My Code Snippets<br>
 2: Put .snippets in foler and type into Visual Studio
 
 
