@@ -6,5 +6,5 @@ Simple shortcuts (snippets) to develop a bot using DSharpPlus Framework using Vi
 ## How to install:<br>
 > Windows
 
-1: Goto %USERPROFILE%\Documents\Visual Studio &ltversion&gt\Code Snippets\Visual C#\My Code Snippets
+1: Goto %USERPROFILE%\Documents\Visual Studio &ltversion&gt\Code Snippets\Visual C#\My Code Snippets<br>
 2: Put .snippets in foler and type into Visual Studio
