@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+      <Title>DSharpPlus: Command Group</Title>
+      <Author>FRNathan13</Author>
+      <Description>Create a command group</Description>
+      <HelpUrl>https://dsharpplus.emzi0767.com/articles/commandsnext.html#4-creating-your-first-command</HelpUrl>
+      <Shortcut>dpp_group</Shortcut>
+    </Header>
+    <Imports>
+      <Import>
+        <Namespace>DSharpPlus.CommandsNext</Namespace>
+      </Import>
+      <Import>
+        <Namespace>DSharpPlus.CommandsNext.Entities</Namespace>
+      </Import>
+      <Import>
+        <Namespace>DSharpPlus.CommandsNext.Attributes</Namespace>
+      </Import>
+    </Imports>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>name</ID>
+          <ToolTip>Group Name</ToolTip>
+          <Default>mygroup</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>nameGroup</ID>
+          <ToolTip>Group Type Name</ToolTip>
+          <Default>MyGroup</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$" Kind="type decl"><![CDATA[[Group("$name$")]
+public class $nameGroup$ : BaseCommandModule
+{
+    $selected$$end$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
