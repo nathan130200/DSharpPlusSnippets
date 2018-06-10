@@ -1,3 +1,6 @@
+# Repository Moved.
+Moved to <a href="https://github.com/StormDevelopmentSoftware/DSharpPlusSnippets">StormDevelopmentSoftware/DSharpPlusSnippets</a>
+
 # DSharpPlus Snippets
 Simple shortcuts (snippets) to develop a bot using the <a href="https://github.com/DSharpPlus/DSharpPlus">DSharpPlus</a> Discord API.
 
