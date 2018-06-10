@@ -19,4 +19,4 @@ Simple shortcuts (snippets) to develop a bot using the <a href="https://github.c
 
 
 ## Example:<br>
-<img src="https://i.imgur.com/IG0X2gt.gif" alt="DSharpPlus Command Snippet Example">
+<img src="https://i.imgur.com/IwepUwL.gif" alt="DSharpPlus Command Snippet Example">
